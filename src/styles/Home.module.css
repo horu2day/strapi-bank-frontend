@@ -1,0 +1,25 @@
+/* src/styles/Home.module.css */
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding: 20px;
+  flex: 1;
+}
+
+.breadcrumb {
+  margin: 20px 0;
+}
+
+.accountContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourAccounts h3 {
+  margin-bottom: 10px;
+}

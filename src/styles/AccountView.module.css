@@ -1,0 +1,40 @@
+/* src/styles/AccountView.module.css */
+
+.accountViewContainer {
+  padding: 20px;
+}
+
+.accountViewMain {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accountName h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.accountMiniDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transactionsContainer {
+  margin-top: 30px;
+}
+
+.transactionsHeader h2 {
+  margin-bottom: 10px;
+}
+
+.transactionsList {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+}

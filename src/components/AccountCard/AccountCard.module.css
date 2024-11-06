@@ -1,0 +1,29 @@
+/* src/components/AccountCard/AccountCard.module.css */
+
+.account {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.account:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.accountDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.accountName h3 {
+  margin: 0;
+}
+
+.accountBalance,
+.accountCreatedAt {
+  margin-top: 8px;
+  color: #555;
+}

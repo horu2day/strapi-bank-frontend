@@ -1,0 +1,86 @@
+/* src/components/TransactionDialog/TransactionDialog.module.css */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalBackdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  z-index: 1001;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.closeButton {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.modalBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  margin-bottom: 15px;
+}
+
+.inputField label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputField input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: #e11d48;
+  color: white;
+}
+
+.submitButton {
+  background-color: #1e3a8a;
+  color: white;
+}

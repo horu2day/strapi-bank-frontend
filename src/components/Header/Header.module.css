@@ -1,0 +1,14 @@
+/* src/components/Header/Header.module.css */
+
+.header {
+  width: 100%;
+  padding: 20px;
+  background-color: #1e3a8a; /* 파란색 배경 */
+  color: white;
+  text-align: center;
+}
+
+.headerName {
+  font-size: 24px;
+  font-weight: bold;
+}
